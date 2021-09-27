@@ -5,8 +5,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
   <body>
+  <div class="container">
     <h1>Welcome to Pierre's Bakery</h1>
     <h4>Where we like to say, "Every third bread is free!"</h4>
     <h5>("& also, we're not evil!")</h5>
+    <form action="/postcard" method="post">
+    <div class="form-inline">
+      <label for="bread">How Many Breads Do You Want? <br />[EVERY THIRD ONE IS FREE!]</label>
+      <input id="bread" class="form-control" name="bread" type="number">
+    </div>
+    <div class="form-inline">
+      <label for="pastry">How Many Pastries Do You Want?</label>
+      <input id="pastry" class="form-control"name="pastry" type="number">
+    </div>
+    <button type="submit">Go!</button>
+    </form>
+
+  </div>
+
+  </div>
   </body>
 </html>
